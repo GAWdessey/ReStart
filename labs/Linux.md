@@ -9,8 +9,9 @@ You can use the man command to read the Linux manual pages.
 ## Lab 1 
 
 This is just an introduction to Linux CLI using Putty to connect to an EC2 
-
-
+![EC2](../images/Linux/Linux_putty_connecting_to_ec2.PNG)
+![EC2](../images/Linux/running_simple_commands.PNG)
+![EC2](../images/Linux/Simplifying_workload.PNG)
 ## Lab 2 - Managing Users and Groups
 
 ### Create Users
