@@ -197,13 +197,78 @@ For the third line, enter MAILTO=root and press Enter.
 
 For the last line, enter 0 * * * * ls -la $(find .) | sed -e 's/..csv/#####.csv/g' > /home/ec2-user/companyA/SharedFolders/filteredAudit.csv
 
-Your terminal should look like the following image:
+# Write a shell script
+In this task, you create a Bash shell script that automates the creation of a backup of the CompanyA folder as a compressed archive. The name of the archive will be in the format date of the day-backup-companyA.tar.gz.
 
-![The terminal window shows the establishment of a cron job. The cron job is used to create an audit file.](images/cron.jpg)
+### Helpful Hint
 
-*Figure: In the terminal, it shows how the cron job with the SHELL, PATH, MAILTO, and a script that was referenced earlier in the lab.*
-To save and close the file, press ESC. Then enter :wq and press Enter.
-To validate your work, enter sudo crontab -l and press Enter. Inspect the crontab file to ensure that it matches the text exactly, as the following output shows:
-![The terminal window show output from the command sudo crontab -l ](images/installed-cron.jpg)
+You may have to use sudo to complete this task if you are not root.
+To validate that you are in the home folder, enter the following command, and press Enter.
 
-*Figure: A validated cron job is shown by entering the command sudo crontab -l. The output of the command will be from the file that was entered from earlier in the lab.*
+pwd
+
+### Expected Output:
+
+[ec2-user@ ~]$ pwd
+/home/ec2-user/
+To create a generic shell script called backup.sh, enter the following command, and press Enter.
+
+touch backup.sh
+To change the file privileges to make backup.sh be executable, enter the following command, and press Enter.
+
+sudo chmod 755 backup.sh
+Use your preferred text editor to open the backup.sh file for editing. To do so, enter the following command, and press Enter.
+
+vi backup.sh
+To activate insert mode, enter i
+
+On line 1 of the script, enter #!/bin/bash to add the shebang line, and press Enter to go to the next line.
+
+To create a variable for the current date, enter DAY="$(date +%Y_%m_%d_%T_%H_%M)" and press Enter to go to the next line.
+
+### Note:
+
+You can use the date +%Y%m%d command to retrieve the current date and time. This command formats this information as follows: 2021_08_31
+To create a variable for the backup file for the day, enter BACKUP="/home/$USER/backups/$DAY-backup-CompanyA.tar.gz" and press Enter to go to the next line.
+
+### Note:
+
+$USER returns the current user, which is ec2-user in this lab. This is the equivalent of entering the whoami command in the shell. The created archive will be located in /home/ec2-user/backups.
+On the next line, enter tar -csvpzf $BACKUP /home/$USER/CompanyA and press Enter.
+Contents of backup.sh script written so far:
+
+#!/bin/bash                                                                                                           
+DAY="$(date +%Y_%m_%d)"                                                       
+BACKUP="/home/$USER/backups/$DAY-backup-CompanyA.tar.gz"                             
+tar -csvpzf $BACKUP /home/$USER/CompanyA                                    
+With your current text editor, save your script and exit from the editor. To do so, press the Esc key, enter :wq and press Enter.
+
+To run backup.sh, enter the following command, and press Enter.
+
+./backup.sh
+
+Expected Output:
+
+[ec2-user@ ~]$ ./backup.sh
+tar: Removing leading `/' from member names
+/home/ec2-user/CompanyA/
+/home/ec2-user/CompanyA/Management/
+/home/ec2-user/CompanyA/Management/Sections.csv
+/home/ec2-user/CompanyA/Management/Promotions.csv
+/home/ec2-user/CompanyA/Employees/
+/home/ec2-user/CompanyA/Employees/Schedules.csv
+/home/ec2-user/CompanyA/Finance/
+/home/ec2-user/CompanyA/Finance/Salary.csv
+/home/ec2-user/CompanyA/HR/
+/home/ec2-user/CompanyA/HR/Managers.csv
+/home/ec2-user/CompanyA/HR/Assessments.csv
+/home/ec2-user/CompanyA/IA/
+/home/ec2-user/CompanyA/SharedFolders/
+To verify that the archive is created in the backups folder, enter the following command, and press Enter.
+
+ls backups/
+
+Expected Output:
+
+[ec2-user@ ~]$ ls backups/
+2022_05_18_05:55:28_05_55-backup-CompanyA.tar.gz
