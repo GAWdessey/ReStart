@@ -1,4 +1,4 @@
-## 📘 AWS re/Start – Core Learning Objectives
+# AWS re/Start – Core Learning Objectives
 
 <details>
 <summary><strong>1. Linux Fundamentals</strong></summary>
