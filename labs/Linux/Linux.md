@@ -11,13 +11,13 @@ You can use the man command to read the Linux manual pages.
 This is just an introduction to Linux CLI using Putty to connect to an EC2 
 
 ### Connecting to Putty ussing the SSH
-![EC2](../images/Linux/Linux_putty_connecting_to_ec2.PNG)
+![EC2](../../images/Linux/Linux_putty_connecting_to_ec2.PNG)
 
 ### Running Commands
-![EC2](../images/Linux/running_simple_commands.PNG)
+![EC2](../../images/Linux/running_simple_commands.PNG)
 
 ### Creating a script to make workflow easier
-![EC2](../images/Linux/Simplifying_workload.PNG)
+![EC2](../../images/Linux/Simplifying_workload.PNG)
 
 ## Lab 2 - Managing Users and Groups
 
@@ -76,7 +76,7 @@ Using the terminal, you recreate the following structure on the Linux machine.
 /home/ec2-user/CompanyA/Management/Managers.csv
 /home/ec2-user/CompanyA/Management/Schedule.csv
 
-![EC2](../images/Linux/Filingstructure.PNG)
+![EC2](../../images/Linux/Filingstructure.PNG)
 
 For this next task, you:
 
@@ -162,7 +162,7 @@ If you are not in this folder, enter cd companyA and press Enter.
 View all processes running on the machine and filter out the word root by typing sudo ps -aux | grep -v root | sudo tee SharedFolders/processes.csv and pressing ENTER.
 
 Validate your work by typing cat SharedFolders/processes.csv and pressing ENTER.
-![EC2](../images/Linux/Processes1.PNG)
+![EC2](../../images/Linux/Processes1.PNG)
 
 ## List the processes using the top command
 In this exercise, you will use the top command:
@@ -173,7 +173,7 @@ In the main terminal run the command top and press ENTER:
 
 ### top
 The top command is used to display the system performance and lists the processes and threads active in the system. The output of the top command should look similar to the picture below:
-![EC2](../images/Linux/Processes2.PNG)
+![EC2](../../images/Linux/Processes2.PNG)
 
 ## Create a Cron Job
 In this exercise, you will create a cron job that will create an audit file with ##### to cover all csv files:
