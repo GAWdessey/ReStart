@@ -19,3 +19,17 @@ We used the following services from AWS to complete the tasks
 1. S3 to host a static website
 2. DynamoDB to connect a back end to track and book sign ups, orders and bookings
 3. Lambda to connect the website to the database via functions 
+
+
+## Certifications 
+
+We have had the opportunity and request to complete the below certifiations to further our progress beyond the Re-Start course
+
+![](Certificates/CoreSecurityConcepts.png)
+![](Certificates/CoreSecurityConcepts.pdf)
+![](Certificates/DatabasesinPractice.png)
+![](Certificates/DatabasesinPractice.pdf)
+![](Certificates/FileSystemsintheCloud.png)
+![](Certificates/FileSystemsintheCloud.pdf)
+![](Certificates/NetworkingConcepts.png)
+![](Certificates/NetworkingConcepts.pdf)
