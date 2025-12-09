@@ -148,6 +148,6 @@ Choose Actions, and then choose Delete table.
 On the confirmation panel, enter delete and choose Delete table.
 
 The table will be deleted.
+
 ![EC2](../../images/Databases/DynamoDB/deletetable.PNG)
 
-## Photo 7
