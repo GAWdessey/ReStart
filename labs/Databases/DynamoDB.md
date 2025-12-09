@@ -32,8 +32,8 @@ Your table will use the default settings for indexes and provisioned capacity.
 Scroll down, and choose Create table.
 
 The table will be created in less than 1 minute. Wait for the Music table to be Active before moving on to the next task.
-![EC2](../../images/Databases/creatingdb.PNG)
-![EC2](../../images/Databases/createddb.PNG)
+![EC2](../../images/Databases/DynamoDB/creatingdb.PNG)
+![EC2](../../images/Databases/DynamoDB/createddb.PNG)
 
 ## Task 2: Add data
 
@@ -76,7 +76,7 @@ For the new attribute, enter the following:
 FIELD: Year
 VALUE: 1973
 Choose Create item.
-![EC2](../../images/Databases/creatingitem1.PNG)
+![EC2](../../images/Databases/DynamoDB/creatingitem1.PNG)
 The item has now been added to the Music table.
 
 Similarly, to create a second item, use the following attributes:
@@ -100,7 +100,7 @@ LengthSeconds	Number	219
 Once again, this item has a new LengthSeconds attribute identifying the length of the song. This demonstrates the flexibility of a NoSQL database.
 
 There are also faster ways to load data into DynamoDB, such as using AWS Command Line Interface, programmatically loading data, or using one of the free tools available on the internet.
-![EC2](../../images/Databases/creatingitem2.PNG)
+![EC2](../../images/Databases/DynamoDB/creatingitem2.PNG)
 
 ## Task 4: Query the table
 There are two ways to query a DynamoDB table: query and scan.
@@ -120,7 +120,7 @@ Choose Run.
 The song quickly appears in the list. You might need to scroll down to see this result.
 
 A query is the most efficient way to retrieve data from a DynamoDB table. 
-![EC2](../../images/Databases/Searching.PNG)
+![EC2](../../images/Databases/DynamoDB/searching.PNG)
 
 Alternatively, you can scan for an item. This option involves looking through every item in a table, so it is less efficient and can take significant time for larger tables.
 
@@ -134,7 +134,7 @@ For Value, enter 1971
 Choose Run
 
 Only the song released in 1971 is displayed.
-![EC2](../../images/Databases/Searching2.PNG)
+![EC2](../../images/Databases/DynamoDB/Searching2.PNG)
 
 Task 5: Delete the table
 In this task, you will delete the Music table, which will also delete all the data in the table.
@@ -148,6 +148,6 @@ Choose Actions, and then choose Delete table.
 On the confirmation panel, enter delete and choose Delete table.
 
 The table will be deleted.
-![EC2](../../images/Databases/deletetable.PNG)
+![EC2](../../images/Databases/DynamoDB/deletetable.PNG)
 
 ## Photo 7
