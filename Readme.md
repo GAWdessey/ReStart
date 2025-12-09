@@ -28,20 +28,69 @@ We have had the opportunity and request to complete the below certifiations to f
 ## Core Security Concepts
 
 ### Objectives
-Compare IAM users, roles, and groups and their creation processes.
-Analyze the structure and components of IAM policies.
-Explain the AWS Shared Responsibility Model and compliance programs.
-Implement IAM best practices for secure access management.
+
+- Compare IAM users, roles, and groups and their creation processes.
+- Analyze the structure and components of IAM policies.
+- Explain the AWS Shared Responsibility Model and compliance programs.
+- Implement IAM best practices for secure access management.
 
 ### AWS Services
-Amazon Elastic Compute Cloud
-AWS Identity and Access Management
-Amazon Relational Database Service
-https://github.com/GAWdessey/ReStart/blob/main/Certificates/CoreSecurityConcepts.pdf
 
+- Amazon Elastic Compute Cloud
+- AWS Identity and Access Management
+- Amazon Relational Database Service
+
+https://github.com/GAWdessey/ReStart/blob/main/Certificates/CoreSecurityConcepts.pdf
+![](Certificates/CoreSecurityConcepts.png)
+
+## Databases in Practice
+
+### Objectives
+
+- Compare database types and their use cases on AWS.
+- Implement Multi-AZ deployments for Amazon RDS high availability.
+- Configure Amazon RDS read replicas for performance optimization.
+- Differentiate between managed and hosted database solutions.
+- Evaluate database migration strategies by using AWS DMS.
+
+### AWS Services
+
+- Amazon Relational Database Service
+
+
+https://github.com/GAWdessey/ReStart/blob/main/Certificates/DatabasesinPractice.pdf
 ![](Certificates/DatabasesinPractice.png)
-![](Certificates/DatabasesinPractice.pdf)
+
+## File Systems in the Cloud
+
+### Objectives
+
+- Evaluate different storage options available on AWS.
+- Analyze the key features and benefits of Amazon EFS.
+- Apply Amazon EFS solutions to specific business scenarios.
+- Configure Amazon EFS endpoints for centralized storage access.
+
+### AWS Services
+
+- Amazon Elastic Compute Cloud
+- Amazon Elastic File System
+
+https://github.com/GAWdessey/ReStart/blob/main/Certificates/FileSystemsintheCloud.pdf
 ![](Certificates/FileSystemsintheCloud.png)
-![](Certificates/FileSystemsintheCloud.pdf)
-![](Certificates/NetworkingConcepts.png)
+
+## Networking Concepts
+
+### Objectives
+
+- Analyze key components of VPCs, subnets, internet gateways, and route tables.
+- Evaluate the advantages of VPC implementations.
+- Apply CIDR block notation and IP addressing concepts.
+- Configure VPC traffic routing by using gateways, NACLs, and security groups.
+
+### AWS Services
+
+- Amazon Elastic Compute Cloud
+- Amazon VPC
+
+https://github.com/GAWdessey/ReStart/blob/main/Certificates/NetworkingConcepts.pdf
 ![](Certificates/NetworkingConcepts.pdf)
