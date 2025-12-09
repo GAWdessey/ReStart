@@ -2,7 +2,7 @@
 
 This is to track and document the inner workings of the AWS ReStart program. I will be going into detail on performing what to me are the basics of what is needed to know. 
 Along with this we have also been asked to perform AWS Cloud Quest missions to attain the below:
-![](images/Badges/GenerativeAIBadge.png)![](images/Badges/CloadPracBadge.png)
+<img src="images/Badges/GenerativeAIBadge.png" alt="Generative AI Badge" width="200" /><img src="images/Badges/CloadPracBadge.png" alt="CloadPracBadge" width="200" /><img src="Certificates/CoreSecurityConcepts.png" alt="CoreSecurityConcepts" width="200" /><img src="Certificates/DatabasesinPractice.png" alt="DatabasesinPractice" width="200" /><img src="Certificates/FileSystemsintheCloud.png" alt="FileSystemsintheCloud" width="200" /><img src="Certificates/NetworkingConcepts.png" alt="NetworkingConcepts" width="200" />
 
 
 ## Directory
