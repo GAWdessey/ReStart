@@ -93,4 +93,4 @@ https://github.com/GAWdessey/ReStart/blob/main/Certificates/FileSystemsintheClou
 - Amazon VPC
 
 https://github.com/GAWdessey/ReStart/blob/main/Certificates/NetworkingConcepts.pdf
-![](Certificates/NetworkingConcepts.pdf)
+![](Certificates/NetworkingConcepts.png)
