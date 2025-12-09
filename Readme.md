@@ -21,12 +21,24 @@ We used the following services from AWS to complete the tasks
 3. Lambda to connect the website to the database via functions 
 
 
-## Certifications 
+# Certifications 
 
 We have had the opportunity and request to complete the below certifiations to further our progress beyond the Re-Start course
 
-![](Certificates/CoreSecurityConcepts.png)
-![](Certificates/CoreSecurityConcepts.pdf)
+## Core Security Concepts
+
+### Objectives
+Compare IAM users, roles, and groups and their creation processes.
+Analyze the structure and components of IAM policies.
+Explain the AWS Shared Responsibility Model and compliance programs.
+Implement IAM best practices for secure access management.
+
+### AWS Services
+Amazon Elastic Compute Cloud
+AWS Identity and Access Management
+Amazon Relational Database Service
+https://github.com/GAWdessey/ReStart/blob/main/Certificates/CoreSecurityConcepts.pdf
+
 ![](Certificates/DatabasesinPractice.png)
 ![](Certificates/DatabasesinPractice.pdf)
 ![](Certificates/FileSystemsintheCloud.png)
