@@ -13,7 +13,7 @@ Add users to user groups with specific capabilities active
 Locate and use the IAM sign-in URL
 Experiment with the effects of policies on service access
 
-### Photo Diagram.png
+![EC2](../../images/IAM/Diagram.png)
 
 ## Other AWS services
 During this lab, you might receive error messages when performing actions beyond the steps in this lab. These messages will not impact your ability to complete the lab.
@@ -35,7 +35,7 @@ In the AWS Management Console, in the search  box, enter IAM and select it.
 
 In the left navigation pane, choose Account settings.
 
-## dashboard.png
+![EC2](../../images/IAM/dashboard.PNG)
 
 Here you can see the default password policy that is currently in effect. The company that you are working for has much stricter requirements, and you need to update this policy.
 
@@ -54,7 +54,7 @@ These changes take affect at the AWS account level and apply to every user assoc
 ## Summary of task 1
 In this task, you strengthened the password requirements by creating a custom password policy. The various password options that you selected have now made the passwords that the users create much more difficult to crack.
 
-## password.png
+![EC2](../../images/IAM/password.png)
 
 # Task 2: Explore users and user groups
 In this task, you explore the users and user groups that have already been created for you in IAM.
@@ -81,7 +81,7 @@ user-1 is also is not a member of any user groups.
 Choose the Security credentials tab.
 
 user-1 is assigned a Console password.
-## user1.PNG
+![EC2](../../images/IAM/user1.PNG)
 
 In the left navigation pane, choose User groups.
 
@@ -108,7 +108,7 @@ Effect indicates whether to Allow or Deny the permissions.
 Action specifies the API calls that can be made against an AWS service (for example, cloudwatch:ListMetrics).
 Resource defines the scope of entities covered by the policy rule (for example, a specific Amazon Simple Storage Service [Amazon S3] bucket, EC2 instance, or * which means any resource).
 In the left navigation pane, choose User groups.
-## grouppermission.PNG
+![EC2](../../images/IAM/grouppermission.PNG)
 
 Choose the S3-Support group.
 
@@ -186,7 +186,7 @@ Choose the S3-Support group.
 Choose the Users tab.
 
 In the Users tab, choose Add users.
-## addingtogroup.PNG
+![EC2](../../images/IAM/addingtogroup.PNG)
 In the Add users to S3-Support window, configure the following options:
 
 Select the check box for user-1.
