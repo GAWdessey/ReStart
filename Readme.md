@@ -1,96 +1,92 @@
-# AWS Restart Program
+# AWS ReStart Program
 
-This is to track and document the inner workings of the AWS ReStart program. I will be going into detail on performing what to me are the basics of what is needed to know. 
-Along with this we have also been asked to perform AWS Cloud Quest missions to attain the below:
-<img src="images/Badges/GenerativeAIBadge.png" alt="Generative AI Badge" width="200" /><img src="images/Badges/CloadPracBadge.png" alt="CloadPracBadge" width="200" /><img src="Certificates/CoreSecurityConcepts.png" alt="CoreSecurityConcepts" width="200" /><img src="Certificates/DatabasesinPractice.png" alt="DatabasesinPractice" width="200" /><img src="Certificates/FileSystemsintheCloud.png" alt="FileSystemsintheCloud" width="200" /><img src="Certificates/NetworkingConcepts.png" alt="NetworkingConcepts" width="200" />
+This repository documents my journey through the AWS ReStart program. It tracks labs, projects, badges, and certifications, highlighting what I’ve learned and the hands-on experience I gained.
 
+## Goals
+- Gain foundational cloud and IT skills (Linux, Python, networking, databases, AWS core services, security, etc.)
+- Complete hands-on labs and projects simulating real-world cloud scenarios
+- Build a portfolio that clearly shows skills and accomplishments to prospective employers
+- Prepare for AWS certifications and further cloud learning
 
-## Directory
-Labs, I will be showing each individual Lab as I found them, for reference it will be easier to go to and see the information if i label them out like that. 
+---
 
+## Directory Structure
+- **Labs/** – Step-by-step documentation of each lab with explanations and key learnings.
+- **Projects/** – Projects completed during the course, including objectives, methods, and results.
+- **Badges/** – AWS Cloud Quest badges earned, with explanations of the skills demonstrated.
+- **Certifications/** – Summaries of certifications and skills gained, with images.
+- **Summary/** – Overview of the course, key takeaways, and reflections.
 
-Summary, is basically just the over view of the course.
+---
 
+## Badges Earned
 
-### Projects are projects given in the course to complete. 
-So far we have had one project
-We have had to create a website for a struggling restaurant, that was struggling with demand planning and operational infrastructure problems. 
-We used the following services from AWS to complete the tasks
-1. S3 to host a static website
-2. DynamoDB to connect a back end to track and book sign ups, orders and bookings
-3. Lambda to connect the website to the database via functions 
+These badges were earned during AWS Cloud Quest exercises and represent specific skills I developed:
 
+- **Generative AI Badge** – Learned foundational concepts of generative AI on AWS, including practical applications and relevant services.  
+  <img src="images/Badges/GenerativeAIBadge.png" alt="Generative AI Badge" width="200" />
 
-# Certifications 
+- **Cloud Practitioner Badge** – Demonstrated understanding of AWS cloud fundamentals, services, and best practices.  
+  <img src="images/Badges/CloadPracBadge.png" alt="Cloud Practitioner Badge" width="200" />
 
-We have had the opportunity and request to complete the below certifiations to further our progress beyond the Re-Start course
+---
 
-## Core Security Concepts
+## Projects
 
-### Objectives
+### Restaurant Website Project
+**Objective:** Help a restaurant improve demand planning and operational infrastructure.
 
-- Compare IAM users, roles, and groups and their creation processes.
-- Analyze the structure and components of IAM policies.
-- Explain the AWS Shared Responsibility Model and compliance programs.
-- Implement IAM best practices for secure access management.
+**AWS Services Used:**
+- **S3:** Hosted static website
+- **DynamoDB:** Backend database for bookings and orders
+- **Lambda:** Connects website to DynamoDB
 
-### AWS Services
+**Process & Outcome:**
+- Created a static website for the restaurant
+- Integrated backend to track orders and bookings
+- Learned practical experience with serverless architecture, cloud integration, and real-world problem solving
 
-- Amazon Elastic Compute Cloud
-- AWS Identity and Access Management
-- Amazon Relational Database Service
+*Screenshots and HTML architecture included in the project folder with explanations.*
 
-https://github.com/GAWdessey/ReStart/blob/main/Certificates/CoreSecurityConcepts.pdf
-![](Certificates/CoreSecurityConcepts.png)
+---
 
-## Databases in Practice
+## Labs
 
-### Objectives
+**Example: EC2 Instance Lab**
+- Launched an EC2 instance via AWS Management Console
+- Selected Ubuntu AMI, specified storage and instance type
+- Configured security groups and network access
+- Learned EC2 fundamentals, networking, and instance management
 
-- Compare database types and their use cases on AWS.
-- Implement Multi-AZ deployments for Amazon RDS high availability.
-- Configure Amazon RDS read replicas for performance optimization.
-- Differentiate between managed and hosted database solutions.
-- Evaluate database migration strategies by using AWS DMS.
+*Other labs follow a similar structure: images are paired with step-by-step explanations rather than just visual results.*
 
-### AWS Services
+---
 
-- Amazon Relational Database Service
+## Certifications
 
+### Core Security Concepts
+**Skills gained:** IAM fundamentals (users, roles, groups), policy structures, AWS Shared Responsibility Model, and best-practice access controls.  
+<img src="Certificates/CoreSecurityConcepts.png" alt="Core Security Concepts" width="200" />
 
-https://github.com/GAWdessey/ReStart/blob/main/Certificates/DatabasesinPractice.pdf
-![](Certificates/DatabasesinPractice.png)
+### Databases in Practice
+**Skills gained:** Multi-AZ RDS deployments, read replicas for performance, database migration strategies, and understanding of managed vs hosted database solutions.  
+<img src="Certificates/DatabasesinPractice.png" alt="Databases in Practice" width="200" />
 
-## File Systems in the Cloud
+### File Systems in the Cloud
+**Skills gained:** AWS storage options, Amazon EFS configuration, centralized storage solutions, and application to real-world scenarios.  
+<img src="Certificates/FileSystemsintheCloud.png" alt="File Systems in the Cloud" width="200" />
 
-### Objectives
+### Networking Concepts
+**Skills gained:** VPC, subnets, gateways, route tables, CIDR block and IP addressing, traffic routing, security groups, and network access control.  
+<img src="Certificates/NetworkingConcepts.png" alt="Networking Concepts" width="200" />
 
-- Evaluate different storage options available on AWS.
-- Analyze the key features and benefits of Amazon EFS.
-- Apply Amazon EFS solutions to specific business scenarios.
-- Configure Amazon EFS endpoints for centralized storage access.
+---
 
-### AWS Services
+## Summary
+This repository will continue to evolve as I complete more labs, projects, badges, and certifications. Its purpose is to clearly showcase my AWS ReStart journey, demonstrating:
 
-- Amazon Elastic Compute Cloud
-- Amazon Elastic File System
+- What I did  
+- What I learned  
+- What I can do  
 
-https://github.com/GAWdessey/ReStart/blob/main/Certificates/FileSystemsintheCloud.pdf
-![](Certificates/FileSystemsintheCloud.png)
-
-## Networking Concepts
-
-### Objectives
-
-- Analyze key components of VPCs, subnets, internet gateways, and route tables.
-- Evaluate the advantages of VPC implementations.
-- Apply CIDR block notation and IP addressing concepts.
-- Configure VPC traffic routing by using gateways, NACLs, and security groups.
-
-### AWS Services
-
-- Amazon Elastic Compute Cloud
-- Amazon VPC
-
-https://github.com/GAWdessey/ReStart/blob/main/Certificates/NetworkingConcepts.pdf
-![](Certificates/NetworkingConcepts.png)
+It serves as a portfolio for recruiters, highlighting hands-on skills and growth in cloud computing.
