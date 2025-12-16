@@ -2,7 +2,7 @@
 
 **Group 3** | **Date:** 01-12-2025
 
-![Architecture Diagram](path/to/your/architecture_diagram_image.png)
+![project](image/diagrams.PNG)
 *Architecture diagram*
 
 ---
