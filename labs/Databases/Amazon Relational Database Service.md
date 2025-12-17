@@ -5,7 +5,7 @@ As part of the **AWS ReStart Program**, I completed a challenge lab designed to 
 
 This project demonstrates the architecture of a secure **Amazon RDS (MySQL)** instance connected to a **Linux EC2 Bastion Host**, simulating a real-world tiered architecture where databases are isolated from direct public access.
 
-### 🛠 Architecture & Services Used
+### Architecture & Services Used
 * **Amazon RDS (Relational Database Service):** MySQL engine (db.t3.micro).
 * **Amazon EC2:** Linux server acting as a jump box/bastion host.
 * **VPC Security Groups:** Configured ingress rules for Port 3306 (MySQL) strictly from the web server.
@@ -14,18 +14,18 @@ This project demonstrates the architecture of a secure **Amazon RDS (MySQL)** in
 
 ---
 
-## 📸 Implementation Steps & Evidence
+## Implementation Steps & Evidence
 
 ### Phase 1: Infrastructure Setup
 I launched an RDS MySQL instance within the Lab VPC and deployed a Linux EC2 instance. The critical security step involved configuring the **Security Group** to allow traffic on port `3306` only from the Linux Server's security group, ensuring the database was not exposed to the open internet.
 
 **Connecting to the Server:**
 Using SSH to connect to the EC2 instance and installing the MariaDB/MySQL client.
-![EC2 Connection](ReStart/images/Databases/RDS/Capture1.PNG)
+![EC2 Connection](../../images/Databases/RDS/Capture1.PNG)
 
 **RDS Configuration:**
 Verifying the RDS instance status and endpoint availability in the AWS Console.
-![RDS Console](../Capture2.PNG)
+![RDS Console](../../images/Databases/RDS/Capture2.PNG)
 
 ---
 
@@ -36,17 +36,17 @@ Once connected to the RDS instance via the MySQL CLI, I designed a relational sc
 I created a table named `RESTART` to hold student demographic data.
 * **Columns:** StudentID (PK), StudentName, RestartCity, GraduationDate.
 
-![Create Table RESTART](./Screenshot1Capture.PNG)
+![Create Table RESTART](../../images/Databases/RDS/Screenshot1Capture.PNG)
 
 #### Step 2: Populating Data
 Inserted 10 sample records representing students from various cohort locations (Cape Town, Johannesburg, Durban, Pretoria).
 
-![Insert Data RESTART](./Screenshot2Capture.PNG)
+![Insert Data RESTART](../../images/Databases/RDS/Screenshot2Capture.PNG)
 
 #### Step 3: Verifying Data Integrity
 Queried the table to ensure all records were committed correctly.
 
-![Select All RESTART](./Screenshot3Capture.PNG)
+![Select All RESTART](../../images/Databases/RDS/Screenshot3Capture.PNG)
 
 ---
 
@@ -56,17 +56,17 @@ Queried the table to ensure all records were committed correctly.
 Created a `CLOUD_PRACTITIONER` table to track certification dates.
 * **Constraint:** Established a **Foreign Key** relationship linking `StudentID` to the `RESTART` table to maintain referential integrity.
 
-![Create Table CLOUD_PRACTITIONER](./Screenshot4Capture.PNG)
+![Create Table CLOUD_PRACTITIONER](../../images/Databases/RDS/Screenshot4Capture.PNG)
 
 #### Step 5: Populating Certification Data
 Inserted certification records for specific students.
 
-![Insert Data CLOUD_PRACTITIONER](./Screenshot5Capture.PNG)
+![Insert Data CLOUD_PRACTITIONER](../../images/Databases/RDS/Screenshot5Capture.PNG)
 
 #### Step 6: Verifying Secondary Data
 Queried the certification table to review entries.
 
-![Select All CLOUD_PRACTITIONER](./Screenshot6Capture.PNG)
+![Select All CLOUD_PRACTITIONER](../../images/Databases/RDS/Screenshot6Capture.PNG)
 
 ---
 
