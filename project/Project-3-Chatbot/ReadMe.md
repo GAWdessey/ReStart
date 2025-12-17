@@ -25,11 +25,18 @@ To capture user input dynamically, I defined specific **Slots** for each questio
 * **Slot Type:** Utilized custom slot types to restrict valid user responses to "A", "B", "C", or "D".
 * **Prompting:** Configured the bot to elicit specific values from the user if the initial input was unclear.
 
+*(Below: The overall conversation flow design in the Amazon Lex Visual Builder)*
+![Amazon Lex Conversation Flow Diagram](lex-conversation-flow.png)
+
 ### 3. Logic & Conditional Branching (Key Challenge)
 I implemented a decision tree to validate user answers in real-time.
 * **The Logic:** Instead of simple text matching, I used **Conditional Branching** to programmatically check the value stored in the slot.
 * **Syntax Implementation:** I utilized exact comparison operators to verify the answer.
     * *Code Snippet:* `{QuestionTwo} = "A"`
+
+*(Below: The specific conditional logic block verifying the user's input against the correct answer)*
+![Conditional Logic Syntax Fixed](conditional-logic-syntax.png)
+
 * **Routing:** Created distinct paths:
     * **Success Path:** If the condition evaluates to true, the bot confirms the correct answer and proceeds.
     * **Failure Path:** If false, the bot provides corrective feedback.
@@ -39,6 +46,9 @@ To enable collaborative testing, I implemented security best practices using AWS
 * **Policy Creation:** Created a custom policy allowing granular access to `AmazonLexReadOnly` and `AmazonS3ReadOnlyAccess`.
 * **User Management:** Provisioned a specific IAM User (`Tester_Dave`) with console access.
 * **Role Association:** Configured permissions to strictly adhere to the Principle of Least Privilege, ensuring the tester could interact with the bot without modifying the underlying infrastructure.
+
+*(Below: IAM permissions ensuring least privilege access for the testing user)*
+![IAM User Permissions for Testing](iam-user-permissions.png)
 
 ---
 
