@@ -21,7 +21,7 @@ I launched an RDS MySQL instance within the Lab VPC and deployed a Linux EC2 ins
 
 **Connecting to the Server:**
 Using SSH to connect to the EC2 instance and installing the MariaDB/MySQL client.
-![EC2 Connection](../Capture1.PNG)
+![EC2 Connection](ReStart/images/Databases/RDS/Capture1.PNG)
 
 **RDS Configuration:**
 Verifying the RDS instance status and endpoint availability in the AWS Console.
