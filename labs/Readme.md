@@ -1,6 +1,6 @@
 # Technical Labs and Competencies
 
-This directory contains the documented results of my hands-on technical training within the AWS re/Start program. Collectively, these labs demonstrate my ability to operate within a Linux environment, manage cloud networking and security, and deploy scalable infrastructure using core AWS services. 
+This directory contains the documented results of my hands-on technical training within the AWS re/Start program. Collectively, these labs demonstrate my ability to operate within a Linux environment, manage cloud networking and security, and deploy scalable infrastructure using core AWS services.
 
 Through this practical work, I have moved beyond theoretical understanding to functional implementation. I can configure virtual private clouds, manage identity and access at scale, and architect storage and compute solutions that follow industry best practices for high availability and security.
 
@@ -12,7 +12,7 @@ Through this practical work, I have moved beyond theoretical understanding to fu
 * **Cloud Security:** Experience implementing the principle of least privilege using AWS IAM. I can configure security groups, network ACLs, and manage encryption for data at rest and in transit.
 * **Infrastructure Management:** Ability to launch and manage EC2 instances, configure Elastic Load Balancers, and set up Auto Scaling groups to maintain application performance.
 * **Data Management:** Understanding of both relational (RDS) and non-relational (DynamoDB) database deployment and management, including backup and multi-AZ configurations.
-* **Cloud Storage:** Practical experience managing object storage with Amazon S3 and centralized file systems with Amazon EFS.
+* **Cloud Storage:** Practical experience managing object storage with Amazon S3, persistent block storage with Amazon EBS, and centralized file systems with Amazon EFS.
 
 ---
 
@@ -33,12 +33,16 @@ Each sub-directory contains specific walkthroughs, configuration details, and re
 * **Key Lab:** [Linux Administration](./Linux/Linux.md)
 
 ### [Databases](./Databases/)
-* **Focus:** NoSQL database design, indexing, and data retrieval.
-* **Key Lab:** [DynamoDB Configuration](./Databases/DynamoDB.md)
+* **Focus:** Relational and NoSQL database design, indexing, and data retrieval.
+* **Key Labs:**
+    * [Amazon RDS Configuration](./Databases/Amazon%20Relational%20Database%20Service.md)
+    * [DynamoDB Configuration](./Databases/DynamoDB.md)
 
 ### [Storage](./Storage/)
-* **Focus:** Scalable object storage, bucket policies, and lifecycle rules.
-* **Key Lab:** [S3 Storage Management](./Storage/S3.md)
+* **Focus:** Scalable object storage, persistent block storage, and data durability strategies.
+* **Key Labs:**
+    * [EBS Volume & Snapshot Management](./Storage/EBS.md)
+    * [S3 Storage Management](./Storage/S3.md)
 
 ---
 
