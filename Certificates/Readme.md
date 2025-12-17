@@ -11,36 +11,36 @@ As a collective, these certifications prove my proficiency in the four core pill
 ### Networking Concepts
 Demonstrates expertise in architecting Virtual Private Clouds (VPC), managing subnets, gateways, and route tables to ensure secure and efficient traffic flow.
 * **Skills gained:** CIDR block management, connectivity troubleshooting, and network isolation.
-* [View Certificate PDF](NetworkingConcepts.pdf)
+* [View Certificate PDF](pdf/NetworkingConcepts.pdf)
 
-![Networking Concepts](NetworkingConcepts.png)
+![Networking Concepts](images/NetworkingConcepts.png)
 
 ---
 
 ### Core Security Concepts
 Validates my understanding of the AWS Shared Responsibility Model and the implementation of robust identity and access management.
 * **Skills gained:** IAM user/role/policy creation, least-privilege access control, and infrastructure auditing.
-* [View Certificate PDF](CoreSecurityConcepts.pdf)
+* [View Certificate PDF](pdf/CoreSecurityConcepts.pdf)
 
-![Core Security Concepts](CoreSecurityConcepts.png)
+![Core Security Concepts](images/CoreSecurityConcepts.png)
 
 ---
 
 ### Databases in Practice
 Covers the deployment and scaling of managed database solutions to meet high-demand application requirements.
 * **Skills gained:** RDS Multi-AZ deployments, read replicas for performance optimization, and database security.
-* [View Certificate PDF](DatabasesinPractice.pdf)
+* [View Certificate PDF](pdf/DatabasesinPractice.pdf)
 
-![Databases in Practice](DatabasesinPractice.png)
+![Databases in Practice](images/DatabasesinPractice.png)
 
 ---
 
 ### File Systems in the Cloud
 Focuses on scalable, centralized storage solutions for distributed cloud applications.
 * **Skills gained:** Amazon EFS configuration, cross-instance file sharing, and high-performance storage management.
-* [View Certificate PDF](FileSystemintheCloud.pdf)
+* [View Certificate PDF](pdf/FileSystemintheCloud.pdf)
 
-![File Systems in the Cloud](FileSystemintheCloud.png)
+![File Systems in the Cloud](images/FileSystemintheCloud.png)
 
 ---
 
