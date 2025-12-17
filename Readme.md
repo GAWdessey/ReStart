@@ -1,17 +1,18 @@
 # AWS re/Start Program Portfolio: Cloud Engineering Journey
 
-Welcome to my professional portfolio. This repository documents my intensive journey through the **AWS re/Start program**, featuring hands-on labs, architectural designs, and industry-recognized certifications. 
+Welcome to my professional portfolio. This repository documents my intensive journey through the **AWS re/Start program**, featuring hands-on labs, architectural designs, and industry-recognized certifications.
 
 My goal is to demonstrate a deep understanding of cloud infrastructure, security best practices, and the technical agility to solve real-world business challenges using AWS.
 
 ---
 
 ## Technical Skills & Tools
-* **Compute:** EC2 (Auto Scaling, Load Balancing), AWS Lambda (Serverless).
-* **Storage & Content Delivery:** Amazon S3, Amazon CloudFront (CDN), Amazon EFS.
-* **Databases:** Amazon RDS (Relational), Amazon DynamoDB (NoSQL).
-* **Networking:** VPC, Route 53, Security Groups, Subnets, Gateways.
-* **Security & Monitoring:** IAM, AWS WAF, AWS Shield, CloudWatch, Trusted Advisor.
+* **AI & Automation:** Amazon Lex V2 (Conversational AI), Natural Language Processing (NLP), Intent & Slot Configuration, Conversation Flow Design.
+* **Security & Identity:** AWS IAM (Roles, Policies, Users, JSON), Access Control, Least Privilege Principle, AWS WAF, AWS Shield, Trusted Advisor.
+* **Compute & Serverless:** Amazon EC2 (Auto Scaling, Load Balancing), AWS Lambda (Serverless Functions), Event-Driven Architecture.
+* **Storage & Content Delivery:** Amazon S3 (Versioning, Lifecycle Policies), Amazon CloudFront (CDN), Amazon EFS.
+* **Databases:** Amazon RDS (Multi-AZ, Read Replicas), Amazon DynamoDB (NoSQL Design).
+* **Networking:** VPC (Subnets, Route Tables), Route 53 (DNS), Security Groups, NACLs, Internet Gateways.
 
 ---
 
@@ -31,6 +32,12 @@ My goal is to demonstrate a deep understanding of cloud infrastructure, security
 * **Performance:** Leveraged **Amazon CloudFront** to reduce latency for heavy 3D assets and textures globally.
 * **Database Strategy:** Utilized a hybrid approach with **RDS** for transactional consistency and **DynamoDB** for high-speed product browsing.
 * **Security & Optimization:** Integrated **AWS WAF** for edge security and **Trusted Advisor** to ensure a cost-optimized, secure deployment.
+
+### Project 3: AI-Powered Assessment Bot ('S3Quiz')
+**Objective:** Engineer a conversational interface using Natural Language Processing (NLP) to automate user knowledge assessment regarding AWS Storage services.
+* **Stack:** Amazon Lex V2, AWS IAM (Identity & Access Management).
+* **Logic & Architecture:** I designed complex conversation flows with custom Intents and Slots, utilizing conditional branching logic to validate user answers in real-time.
+* **Security Configuration:** I implemented granular IAM User policies to securely manage access privileges, enabling role-based testing and collaboration for the development team.
 
 ---
 
