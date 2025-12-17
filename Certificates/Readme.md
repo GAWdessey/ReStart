@@ -11,36 +11,36 @@ As a collective, these certifications prove my proficiency in the four core pill
 ### Networking Concepts
 Demonstrates expertise in architecting Virtual Private Clouds (VPC), managing subnets, gateways, and route tables to ensure secure and efficient traffic flow.
 * **Skills gained:** CIDR block management, connectivity troubleshooting, and network isolation.
-* [View Certificate PDF](./Certificates/NetworkingConcepts.pdf)
+* [View Certificate PDF](NetworkingConcepts.pdf)
 
-![Networking Concepts](./Certificates/NetworkingConcepts.png)
+![Networking Concepts](NetworkingConcepts.png)
 
 ---
 
 ### Core Security Concepts
 Validates my understanding of the AWS Shared Responsibility Model and the implementation of robust identity and access management.
 * **Skills gained:** IAM user/role/policy creation, least-privilege access control, and infrastructure auditing.
-* [View Certificate PDF](./Certificates/CoreSecurityConcepts.pdf)
+* [View Certificate PDF](CoreSecurityConcepts.pdf)
 
-![Core Security Concepts](./Certificates/CoreSecurityConcepts.png)
+![Core Security Concepts](CoreSecurityConcepts.png)
 
 ---
 
 ### Databases in Practice
 Covers the deployment and scaling of managed database solutions to meet high-demand application requirements.
 * **Skills gained:** RDS Multi-AZ deployments, read replicas for performance optimization, and database security.
-* [View Certificate PDF](./Certificates/DatabasesinPractice.pdf)
+* [View Certificate PDF](DatabasesinPractice.pdf)
 
-![Databases in Practice](./Certificates/DatabasesinPractice.png)
+![Databases in Practice](DatabasesinPractice.png)
 
 ---
 
 ### File Systems in the Cloud
 Focuses on scalable, centralized storage solutions for distributed cloud applications.
 * **Skills gained:** Amazon EFS configuration, cross-instance file sharing, and high-performance storage management.
-* [View Certificate PDF](./Certificates/FileSystemintheCloud.pdf)
+* [View Certificate PDF](FileSystemintheCloud.pdf)
 
-![File Systems in the Cloud](./Certificates/FileSystemintheCloud.png)
+![File Systems in the Cloud](FileSystemintheCloud.png)
 
 ---
 
