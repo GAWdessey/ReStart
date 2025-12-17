@@ -4,6 +4,12 @@ This directory contains the official certifications and digital badges I earned 
 
 As a collective, these certifications prove my proficiency in the four core pillars of cloud engineering: **Networking**, **Security**, **Storage**, and **Database Management**.
 
+## How I Apply These Skills
+These certifications are not just decorative; they are the foundation of the work found in my [Projects](../project/) directory. 
+* I use my **Networking** knowledge to build the backbone of the 3D E-Commerce platform.
+* I apply **Security** concepts to protect every endpoint I deploy.
+* I utilize **Database and File System** expertise to ensure data is persistent, available, and fast.
+* 
 ---
 
 ## Core Certifications
@@ -44,8 +50,4 @@ Focuses on scalable, centralized storage solutions for distributed cloud applica
 
 ---
 
-## How I Apply These Skills
-These certifications are not just decorative; they are the foundation of the work found in my [Projects](../project/) directory. 
-* I use my **Networking** knowledge to build the backbone of the 3D E-Commerce platform.
-* I apply **Security** concepts to protect every endpoint I deploy.
-* I utilize **Database and File System** expertise to ensure data is persistent, available, and fast.
+
